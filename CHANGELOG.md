@@ -7,6 +7,10 @@
 - Ensured zero hard dependency on private maintainer paths; graceful native Matplotlib fallback when external legacy plotting libraries are absent.
 - Standardized open-source packaging, MIT license, GitHub Actions CI workflow, and bilingual (English and Chinese) documentation.
 - Independent verification and audit hardening: Python actual argv entry binding, process exit fact separation from provenance status, raster/vector image validation, and fail-closed integrity regressions.
+- Documentation & User Experience Optimization:
+  - Systematically structured six core differentiators (Mechanism-first, Real computation, Dual-freeze architecture, Whole-problem orchestration, Publication-grade scientific visualization, and Complete closed-loop workflow).
+  - Integrated 7-stage research workflow infographic (`assets/modelrigor-workflow.png`) with matching architectural diagrams.
+  - Added fast 3-minute quick-start guide, three real-world use scenarios (Contest, Solver-only, Independent Audit), and comprehensive FAQ section.
 
 
 ## v5.1.1 — targeted document/provenance fixes and modeling depth
