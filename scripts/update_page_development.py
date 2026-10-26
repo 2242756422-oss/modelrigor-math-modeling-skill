@@ -1,0 +1,6 @@
+#!/usr/bin/env python3
+"""Record dynamic post-Freeze development evidence without assigning page quotas."""
+import argparse, json
+from datetime import datetime, timezone
+from pathlib import Path
+p=argparse.ArgumentParser();p.add_argument("budget",type=Path);p.add_argument("--question",required=True);p.add_argument("--core-model",required=True);p.add_argument("--structural-innovation",required=True);p.add_argument("--key-results",required=True);p.add_argument("--independent-verification",required=True);p.add_argument("--figure-table",required=True);p.add_argument("--upstream-reuse",required=True);a=p.parse_args();d=json.loads(a.budget.read_text());rec={"core_model":a.core_model,"structural_innovation":a.structural_innovation,"key_results":a.key_results,"independent_verification":a.independent_verification,"figure_table":a.figure_table,"upstream_reuse":a.upstream_reuse,"updated_at":datetime.now(timezone.utc).isoformat(),"page_target":None};d.setdefault("question_development",{})[a.question]=rec;d.setdefault("history",[]).append({"question":a.question,"event":"POST_FREEZE_DEVELOPMENT_UPDATED","at":rec["updated_at"]});a.budget.write_text(json.dumps(d,ensure_ascii=False,indent=2)+"\n",encoding="utf-8");print("PAGE DEVELOPMENT UPDATED WITHOUT A PAGE TARGET")

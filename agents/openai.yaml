@@ -1,0 +1,4 @@
+interface:
+  display_name: "ModelRigor"
+  short_description: "科研级数学建模、可信计算、学术可视化与论文系统"
+  default_prompt: "使用 $modelrigor 按本轮范围开展专业建模、真实计算与科研图表开发，保留关键验证；AUDIT只审计，不修改成果。"

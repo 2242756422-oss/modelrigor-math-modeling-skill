@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Execution receipt v5.1.2 (old receipts use explicitly limited legacy reading)",
+  "type": "object",
+  "required": ["schema_version", "kind", "command", "cwd", "started_at", "finished_at", "runtime", "exit_code", "process_exit_code", "provenance_status", "execution_binding", "integrity", "fresh_output_errors", "code", "inputs", "outputs", "log", "validation_limitations"],
+  "properties": {
+    "schema_version": {"const": "5.1.2"},
+    "kind": {"const": "EXECUTION_RECEIPT"},
+    "command": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "cwd": {"type": "string"},
+    "exit_code": {"type": ["integer", "null"]},
+    "process_exit_code": {"type": ["integer", "null"]},
+    "provenance_status": {"enum": ["PASS", "FAIL", "LIMITED"]},
+    "execution_binding": {"type": "object", "required": ["status", "kind", "entrypoint", "scope", "module_initializers", "reason"]},
+    "integrity": {"type": "object", "required": ["status", "before", "after", "changed"], "properties": {"status": {"enum": ["PASS", "FAIL"]}, "before": {"$ref": "#/$defs/snapshots"}, "after": {"$ref": "#/$defs/snapshots"}, "changed": {"type": "array", "items": {"type": "string"}}}},
+    "entry_review": {"type": "object", "required": ["kind", "command", "code", "argument", "review_evidence", "substantive_review"], "properties": {"kind": {"const": "REVIEWED_ARGUMENT"}}},
+    "code": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "inputs": {"type": "array", "items": {"type": "string"}},
+    "outputs": {"type": "array", "items": {"type": "string"}}
+  },
+  "$defs": {
+    "snapshots": {"type": "object", "required": ["code", "inputs"], "additionalProperties": {"type": "array", "items": {"type": "object", "required": ["path", "resolved_path", "sha256"], "properties": {"path": {"type": "string"}, "resolved_path": {"type": "string"}, "sha256": {"type": ["string", "null"]}}}}}
+  }
+}

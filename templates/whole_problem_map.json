@@ -1,0 +1,14 @@
+{
+  "schema_version": "5.0",
+  "problem_id": "",
+  "official_problem_sources": [],
+  "questions": [],
+  "dependencies": [],
+  "shared_models": [],
+  "shared_evaluators": [],
+  "research_roles": {},
+  "evidence_priorities": {},
+  "writing_priorities": {},
+  "consistency_checks": [],
+  "status": "DRAFT"
+}

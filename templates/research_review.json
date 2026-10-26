@@ -1,0 +1,11 @@
+{
+  "schema_version": "5.1",
+  "question_id": "",
+  "reviewer": "",
+  "outcome": "PENDING",
+  "scientific_manifest": "",
+  "artifacts_inspected": [],
+  "assessments": {},
+  "findings": [],
+  "limitations": "Program checks integrity; reviewer must assess actual mathematics, text and images. Unchanged scientific dimensions may use outcome ACCEPTED with reuse CURRENT_SCIENTIFIC_FREEZE; visual/content/competitive judgments still need actual review. No five nominal independent roles."
+}

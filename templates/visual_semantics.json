@@ -1,0 +1,16 @@
+{
+  "schema_version": "5.0",
+  "semantics": {
+    "observation": {"color": "#4C78A8", "line": "none", "marker": "o"},
+    "baseline": {"color": "#777777", "line": "--", "marker": "s"},
+    "main_model": {"color": "#D55E00", "line": "-", "marker": "o"},
+    "reference": {"color": "#000000", "line": ":", "marker": "none"},
+    "validation": {"color": "#009E73", "line": "-.", "marker": "^"},
+    "training": {"color": "#56B4E9", "line": "-", "marker": "o"},
+    "test": {"color": "#CC79A7", "line": "none", "marker": "D"}
+  },
+  "scenario_semantics": {},
+  "group_semantics": {},
+  "accessibility": {"grayscale_checked": false, "colorblind_palette": true},
+  "status": "DRAFT"
+}

@@ -1,0 +1,17 @@
+{
+  "schema_version": "5.0",
+  "role": "",
+  "run_id": "",
+  "agent_instance_id": "",
+  "attack_method": "",
+  "run_provenance": "",
+  "independent": false,
+  "input_hashes": {},
+  "artifacts_read": [],
+  "artifact_hashes_verified": true,
+  "findings": [],
+  "quality_conclusions": {},
+  "review_scope": [],
+  "created_at": "",
+  "overall": "PENDING"
+}

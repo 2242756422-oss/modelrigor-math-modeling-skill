@@ -1,0 +1,9 @@
+{
+  "schema_version": "5.0",
+  "benchmark": {"triggered": false, "reason": "", "evidence": [], "report": null},
+  "bound_gap": {"triggered": false, "reason": "", "evidence": [], "report": null},
+  "alternative_formulation": {"triggered": false, "reason": "", "evidence": [], "report": null},
+  "ablation": {"triggered": false, "reason": "", "evidence": [], "report": null},
+  "candidate_methods": [],
+  "derivation_source": "claim_evidence_map.csv"
+}

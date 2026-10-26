@@ -1,0 +1,16 @@
+{
+  "schema_version": "5.0",
+  "paper_artifact": "",
+  "paper_sha256": "",
+  "project_state": "project_state.json",
+  "question_dirs": [],
+  "paper_numeric_map": "paper_numeric_map.csv",
+  "scientific_consistency": "PENDING",
+  "content_sufficiency": "UNASSESSED",
+  "evidence_promotion": [],
+  "quality": {},
+  "reopen_questions": [],
+  "unresolved_issues": [],
+  "page_qa": {"status": "PENDING", "renderer": "", "renderer_artifact": "", "renderer_sha256": "", "manual_review_artifact": "", "manual_review_sha256": "", "page_size": "A4", "document_sha256": "", "page_count": 0, "pages": []},
+  "status": "DRAFT"
+}

@@ -1,0 +1,16 @@
+{
+  "schema_version": "5.0",
+  "question_id": "",
+  "categories": [
+    {"category": "domain_definition", "status": "PENDING", "risk": "", "impact": "", "verification": []},
+    {"category": "model_form", "status": "PENDING", "risk": "", "impact": "", "verification": []},
+    {"category": "data", "status": "PENDING", "risk": "", "impact": "", "verification": []},
+    {"category": "measurement", "status": "PENDING", "risk": "", "impact": "", "verification": []},
+    {"category": "material_or_business_parameter", "status": "PENDING", "risk": "", "impact": "", "verification": []},
+    {"category": "numerical", "status": "PENDING", "risk": "", "impact": "", "verification": []},
+    {"category": "optimization", "status": "PENDING", "risk": "", "impact": "", "verification": []},
+    {"category": "implementation", "status": "PENDING", "risk": "", "impact": "", "verification": []},
+    {"category": "operational", "status": "PENDING", "risk": "", "impact": "", "verification": []}
+  ],
+  "dominant_risks": []
+}

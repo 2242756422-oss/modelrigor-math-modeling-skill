@@ -1,0 +1,15 @@
+{
+  "schema_version": "5.1",
+  "question_id": "",
+  "domain_family": "",
+  "domain_families": [],
+  "domain_objects": [],
+  "checks": [],
+  "model_ladder": [],
+  "ladder_rationale": "",
+  "omissions": [],
+  "literature_grounding": {"status": "PENDING", "reason": ""},
+  "p0_issues": [],
+  "core_review": {"outcome": "PENDING", "reviewer": "", "reasoning": "", "limitations": "", "risks_checked": [], "evidence": []},
+  "specialist_attacks": []
+}

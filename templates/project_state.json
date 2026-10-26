@@ -1,0 +1,18 @@
+{
+  "schema_version": "5.0",
+  "project_id": "",
+  "state": "DRAFT",
+  "scientific_version": 0,
+  "presentation_version": 0,
+  "questions": {},
+  "dependencies": [],
+  "quality": {
+    "SCIENTIFIC_CORRECTNESS": "PENDING",
+    "DOMAIN_PROFESSIONALISM": "PENDING",
+    "MODELING_DEPTH": "PENDING",
+    "EVIDENCE_QUALITY": "PENDING",
+    "VISUAL_QUALITY": "PENDING",
+    "CONTENT_DEPTH": "PENDING",
+    "COMPETITIVE_QUALITY": "PENDING"
+  }
+}

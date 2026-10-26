@@ -1,0 +1,24 @@
+{
+  "schema_version": "5.0",
+  "target_competition_year": null,
+  "hard_page_compliance": {
+    "status": "UNSET",
+    "official_rule_source": null,
+    "competition_year": null,
+    "source_sha256": null,
+    "locator": null,
+    "verbatim_excerpt": null,
+    "total_page_limit": null,
+    "counting_scope": {
+      "cover": "UNKNOWN",
+      "abstract": "UNKNOWN",
+      "main_text": "UNKNOWN",
+      "references": "UNKNOWN",
+      "appendix": "UNKNOWN",
+      "ai_declaration": "UNKNOWN"
+    }
+  },
+  "content_sufficiency": "UNASSESSED",
+  "question_development": {},
+  "history": []
+}

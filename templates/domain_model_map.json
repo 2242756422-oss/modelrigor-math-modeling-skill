@@ -1,0 +1,32 @@
+{
+  "schema_version": "5.0",
+  "question_id": "",
+  "domain_family": "",
+  "domain_objects": [],
+  "answers": [
+    {"id": 1, "question": "所属专业领域是什么", "answer": "", "evidence_locators": []},
+    {"id": 2, "question": "该领域标准模型体系是什么", "answer": "", "evidence_locators": []},
+    {"id": 3, "question": "更完整模型包含哪些层", "answer": "", "evidence_locators": []},
+    {"id": 4, "question": "赛题实际需要哪些层", "answer": "", "evidence_locators": []},
+    {"id": 5, "question": "合理省略哪些层", "answer": "", "evidence_locators": []},
+    {"id": 6, "question": "省略理由是什么", "answer": "", "evidence_locators": []},
+    {"id": 7, "question": "省略是否可能改变核心结论", "answer": "", "evidence_locators": []},
+    {"id": 8, "question": "真实领域变量有哪些", "answer": "", "evidence_locators": []},
+    {"id": 9, "question": "具物理工程业务含义的参数有哪些", "answer": "", "evidence_locators": []},
+    {"id": 10, "question": "nuisance parameters有哪些", "answer": "", "evidence_locators": []},
+    {"id": 11, "question": "是否用半经验参数替代应明确的机制", "answer": "", "evidence_locators": []},
+    {"id": 12, "question": "应引用哪些标准理论关系或规律", "answer": "", "evidence_locators": []},
+    {"id": 13, "question": "当前模型与标准模型关系是什么", "answer": "", "evidence_locators": []},
+    {"id": 14, "question": "专业创新是什么", "answer": "", "evidence_locators": []}
+  ],
+  "model_ladder": [],
+  "ladder_rationale": "",
+  "variables": [],
+  "parameters": [],
+  "nuisance_parameters": [],
+  "omissions": [],
+  "literature_grounding": {"status": "PENDING", "reason": ""},
+  "p0_issues": [],
+  "review_status": "PENDING",
+  "domain_review": {"role": "DOMAIN_EXPERT", "run_id": "", "independent": false, "input_hashes": {}, "artifacts_read": [], "report_artifact": "", "report_sha256": ""}
+}

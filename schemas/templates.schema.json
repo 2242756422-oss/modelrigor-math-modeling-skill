@@ -1,0 +1,30 @@
+{
+  "domain_model_map_adaptive.json": {"required": ["schema_version", "question_id", "domain_family", "domain_families", "checks", "model_ladder", "ladder_rationale", "literature_grounding", "p0_issues", "core_review", "specialist_attacks"]},
+  "uncertainty_budget_adaptive.json": {"required": ["schema_version", "question_id", "risk_selection_basis", "categories", "dominant_risks"]},
+  "research_review.json": {"required": ["schema_version", "reviewer", "outcome", "scientific_manifest", "artifacts_inspected", "assessments", "findings", "limitations"]},
+  "visual_review.json": {"required": ["schema_version", "reviewer", "image_sha256", "inspection_scope", "final_width_mm", "final_size_preview", "outcome", "checks", "findings"]},
+  "contest_rule_profile.json": {"required": ["schema_version", "status", "competition_year", "verified_for_year", "checked_at", "sources", "rules", "actual_page_counts", "page_count_evidence", "ai_used", "ai_usage"]},
+  "page_budget.json": {
+    "required": ["schema_version", "target_competition_year", "hard_page_compliance", "content_sufficiency", "question_development", "history"],
+    "nested_required": {"hard_page_compliance": ["status", "official_rule_source", "competition_year", "source_sha256", "locator", "verbatim_excerpt", "total_page_limit", "counting_scope"]}
+  },
+  "project_state.json": {"required": ["schema_version", "project_id", "state", "scientific_version", "presentation_version", "questions", "dependencies", "quality"]},
+  "question_contract.json": {"required": ["schema_version", "question_id", "task_text_locator", "required_outputs", "inputs", "decision_or_unknowns", "acceptance_evaluator", "allow_no_result", "allow_no_result_reason", "status"]},
+  "domain_model_map.json": {"required": ["schema_version", "question_id", "domain_family", "domain_objects", "answers", "model_ladder", "ladder_rationale", "omissions", "literature_grounding", "p0_issues", "review_status", "domain_review"]},
+  "model_contract.json": {"required": ["schema_version", "question_id", "model_type", "domain_map_ref", "mathematical_objects", "inputs", "outputs", "governing_relations", "evaluator", "failure_modes", "status"]},
+  "uncertainty_budget.json": {"required": ["schema_version", "question_id", "categories", "dominant_risks"]},
+  "result_registry.json": {"required": ["schema_version", "results"]},
+  "scientific_manifest.json": {"required": ["schema_version", "question_id", "status", "scientific_version", "created_at", "artifacts", "result_ids", "verification_ids", "upstream_scientific_versions"]},
+  "research_manifest.json": {"required": ["schema_version", "question_id", "status", "research_version", "scientific_manifest_sha256", "created_at", "artifacts", "content_sufficiency", "quality", "review_run_ids"]},
+  "whole_paper_audit.json": {"required": ["schema_version", "paper_artifact", "paper_sha256", "project_state", "question_dirs", "paper_numeric_map", "scientific_consistency", "content_sufficiency", "evidence_promotion", "quality", "reopen_questions", "unresolved_issues", "page_qa", "status"]},
+  "visual_semantics.json": {"required": ["schema_version", "semantics", "scenario_semantics", "group_semantics", "accessibility", "status"]},
+  "reviewer_report.json": {"required": ["schema_version", "role", "run_id", "agent_instance_id", "attack_method", "run_provenance", "independent", "input_hashes", "artifacts_read", "artifact_hashes_verified", "findings", "quality_conclusions", "review_scope", "created_at", "overall"]},
+  "quality_assessment.json": {"required": ["schema_version", "dimensions"]},
+  "conditional_gates.json": {"required": ["schema_version", "benchmark", "bound_gap", "alternative_formulation", "ablation", "candidate_methods", "derivation_source"]},
+  "competitive_development.json": {"required": ["schema_version", "derivation_sufficiency", "method_exposition", "evidence_promotion", "formula_architecture", "table_architecture", "result_interpretation", "hero_figure_attempt", "peer_gap", "writing_quality"]},
+  "handoff.json": {"required": ["schema_version", "from_question", "to_question", "scientific_version", "scientific_manifest_sha256", "objects", "symbols_units", "assumptions", "evaluator_contract", "status"]},
+  "whole_problem_map.json": {"required": ["schema_version", "problem_id", "official_problem_sources", "questions", "dependencies", "shared_models", "shared_evaluators", "research_roles", "evidence_priorities", "writing_priorities", "consistency_checks", "status"]},
+  "numbering_registry.json": {"required": ["schema_version", "counters", "allocations"]},
+  "symbol_registry.json": {"required": ["schema_version", "symbols"]},
+  "question_plan.json": {"required": ["schema_version", "question_id", "question_depth", "depth_effects", "research_role", "evidence_priority", "preliminary_writing_priority"]}
+}

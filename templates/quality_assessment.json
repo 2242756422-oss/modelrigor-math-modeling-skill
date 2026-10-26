@@ -1,0 +1,12 @@
+{
+  "schema_version": "5.0",
+  "dimensions": {
+    "SCIENTIFIC_CORRECTNESS": {"status": "PENDING", "evidence_locators": [], "reviewer_run_ids": []},
+    "DOMAIN_PROFESSIONALISM": {"status": "PENDING", "evidence_locators": [], "reviewer_run_ids": []},
+    "MODELING_DEPTH": {"status": "PENDING", "evidence_locators": [], "reviewer_run_ids": []},
+    "EVIDENCE_QUALITY": {"status": "PENDING", "evidence_locators": [], "reviewer_run_ids": []},
+    "VISUAL_QUALITY": {"status": "PENDING", "evidence_locators": [], "reviewer_run_ids": []},
+    "CONTENT_DEPTH": {"status": "PENDING", "evidence_locators": [], "reviewer_run_ids": []},
+    "COMPETITIVE_QUALITY": {"status": "PENDING", "evidence_locators": [], "reviewer_run_ids": []}
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "schema_version": "5.0",
+  "question_id": "",
+  "task_text_locator": "",
+  "required_outputs": [],
+  "inputs": [],
+  "decision_or_unknowns": [],
+  "constraints_from_prompt": [],
+  "units": {},
+  "ambiguities": [],
+  "interpretations": [],
+  "acceptance_evaluator": {
+    "definition": "",
+    "inputs": [],
+    "outputs": [],
+    "aggregation_quantifiers": [],
+    "direction": "NOT_APPLICABLE"
+  },
+  "allow_no_result": false,
+  "allow_no_result_reason": "",
+  "status": "DRAFT"
+}

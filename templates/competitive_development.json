@@ -1,0 +1,12 @@
+{
+  "schema_version": "5.0",
+  "derivation_sufficiency": {"status": "PENDING", "reason": "", "evidence_locators": []},
+  "method_exposition": {"status": "PENDING", "reason": "", "evidence_locators": []},
+  "evidence_promotion": {"status": "PENDING", "reason": "", "scanned_roots": [], "decision_artifact": "evidence_promotion.csv"},
+  "formula_architecture": {"status": "PENDING", "reason": "", "evidence_locators": []},
+  "table_architecture": {"status": "PENDING", "reason": "", "evidence_locators": []},
+  "result_interpretation": {"status": "PENDING", "reason": "", "evidence_locators": []},
+  "hero_figure_attempt": {"status": "PENDING", "reason": "", "candidate_id": null},
+  "peer_gap": {"status": "PENDING", "reason": "", "comparison_sources": [], "gaps": [], "disposition": []},
+  "writing_quality": {"status": "PENDING", "reason": "", "evidence_locators": []}
+}

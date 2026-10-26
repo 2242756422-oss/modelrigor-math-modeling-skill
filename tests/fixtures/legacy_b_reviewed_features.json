@@ -1,0 +1,27 @@
+{
+  "case_id": "fixed-physical-inverse-paper-2026-09",
+  "source_sha256": "4651c1135f6ce81e27af4482ac5df75dc64bc2ac7f1c612bdaa6d4d93326976b",
+  "extraction": {
+    "embedded_images": 5,
+    "caption_roles": ["VALIDATION", "MAIN_RESULT", "SENSITIVITY", "MAIN_RESULT", "VALIDATION_COMPARISON"],
+    "caption_evidence": ["合成色散样例", "两束包络拟合", "目标剖面及材料情景", "硅片拟合", "留出MSE"]
+  },
+  "reviewed_features": {
+    "scientific_provenance_and_verification_largely_present": true,
+    "domain_standard_chain_enters_main_model_sufficiently": false,
+    "domain_omission_impact_closed": false,
+    "q2_structural_method_fully_developed": false,
+    "q3_core_mechanism_fully_developed": false,
+    "high_value_evidence_promoted": false,
+    "applicable_visual_roles": ["MECHANISM", "DOMAIN_PROPERTY", "METHOD", "ALGORITHM_ARCHITECTURE", "PHYSICAL_INTERPRETATION", "UNCERTAINTY", "MAIN_RESULT", "VALIDATION", "COMPARISON"],
+    "covered_visual_roles": ["MAIN_RESULT", "VALIDATION", "COMPARISON"],
+    "caveat_repetition_obscures_contribution": true,
+    "old_audit_only_polish": true
+  },
+  "manual_evidence": [
+    "Five captions all describe synthetic validation, fit, residual, scenario or holdout evidence.",
+    "No delivered figure explains interface/multiple-reflection mechanism, variable-projection architecture, or uncertainty budget.",
+    "q2/q3 scientific artifacts exist but their competitive exposition is materially compressed.",
+    "The prior whole-paper audit approved five figures and requested only polish; that competitive conclusion is revoked."
+  ]
+}

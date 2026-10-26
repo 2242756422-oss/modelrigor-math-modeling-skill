@@ -1,0 +1,15 @@
+{
+  "schema_version": "5.1",
+  "reviewer": "",
+  "image_sha256": "",
+  "inspection_scope": "DIRECT_IMAGE_AND_FINAL_SIZE",
+  "final_width_mm": null,
+  "final_height_mm": null,
+  "raster_requirement": null,
+  "final_size_preview": "",
+  "outcome": "PENDING",
+  "checks": {},
+  "findings": [],
+  "repair_scope": [],
+  "limitations": "This record must follow actual image inspection; no automatic scientific or aesthetic PASS."
+}

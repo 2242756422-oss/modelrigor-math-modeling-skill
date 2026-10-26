@@ -1,0 +1,21 @@
+{
+  "schema_version": "5.1",
+  "status": "UNSET",
+  "competition_year": null,
+  "verified_for_year": null,
+  "checked_at": "",
+  "sources": [],
+  "rules": {},
+  "actual_page_counts": {},
+  "page_count_evidence": "",
+  "anonymous_review": "",
+  "reference_review": "",
+  "electronic_structure_review": "",
+  "support_inventory_review": "",
+  "identity_tokens": [],
+  "support_required": true,
+  "support_artifact": "",
+  "ai_used": null,
+  "ai_usage": {},
+  "ai_declaration_evidence": ""
+}

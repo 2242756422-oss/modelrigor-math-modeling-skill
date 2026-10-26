@@ -1,0 +1,12 @@
+{
+  "schema_version": "5.0",
+  "from_question": "",
+  "to_question": "",
+  "scientific_version": 0,
+  "scientific_manifest_sha256": "",
+  "objects": [],
+  "symbols_units": {},
+  "assumptions": [],
+  "evaluator_contract": "",
+  "status": "DRAFT"
+}

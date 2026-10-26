@@ -1,0 +1,12 @@
+{
+  "assumption_ledger.csv": ["assumption_id", "category", "statement", "source_or_reason", "affected_objects", "impact_chain", "testability", "verification_ids", "status"],
+  "literature_to_model_map.csv": ["source_id", "source_type", "source_locator", "evidence_artifact", "evidence_sha256", "supported_role", "model_object", "adaptation", "validity_range", "conflict", "decision_impact", "status"],
+  "claim_evidence_map.csv": ["claim_id", "claim_text", "claim_type", "required_output_ids", "paper_locator", "paper_sha256", "evidence_refs", "scope", "boundary", "status"],
+  "figure_candidates.csv": ["figure_id", "question_id", "role", "research_question", "message", "data_source", "data_source_sha256", "data_identity", "demo_quarantine", "preferred_chart_type", "figure_cost", "page_cost", "importance", "status", "status_reason", "equivalent_expression", "output_path", "output_sha256", "caption_locator", "paper_locator", "page_qa_ref", "plot_code", "visual_review", "computation_receipt", "panel_count", "merged_into", "required_output_ids", "panels", "generation_receipt"],
+  "table_portfolio.csv": ["table_id", "question_id", "role", "message", "data_source", "data_source_sha256", "importance", "status", "status_reason", "output_locator", "paper_locator"],
+  "content_units.csv": ["unit_id", "question_id", "source_kind", "source_ids", "requirement", "importance", "evidence_refs", "paper_locator", "paper_sha256", "development", "promotion_decision", "redundancy", "status"],
+  "evidence_promotion.csv": ["evidence_id", "artifact", "locator", "claim_value", "independence", "proposed_form", "page_cost", "decision", "reason"],
+  "resource_consumption.csv": ["capability_id", "resource_kind", "resource_path", "source_sha256", "reason", "actual_interface", "input_bindings", "result_ids", "output_bindings", "exit_code", "adaptations", "excluded_legacy_policies", "validation_evidence", "semantic_review_status"],
+  "paper_numeric_map.csv": ["paper_value_id", "paper_locator", "paper_sha256", "displayed_value", "source_kind", "source_id", "source_display_value", "source_evidence", "status"],
+  "figure_portfolio.csv": ["figure_id", "question_id", "role", "status", "source_manifest", "output_path", "paper_locator"]
+}

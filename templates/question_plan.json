@@ -1,0 +1,9 @@
+{
+  "schema_version": "5.0",
+  "question_id": "",
+  "question_depth": "UNSET",
+  "depth_effects": {"solver_effort": "risk_adjusted", "verification_effort": "risk_adjusted", "audit_effort": "risk_adjusted"},
+  "research_role": "",
+  "evidence_priority": "",
+  "preliminary_writing_priority": ""
+}

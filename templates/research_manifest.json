@@ -1,0 +1,12 @@
+{
+  "schema_version": "5.0",
+  "question_id": "",
+  "status": "DRAFT",
+  "research_version": 0,
+  "scientific_manifest_sha256": null,
+  "created_at": null,
+  "artifacts": {},
+  "content_sufficiency": "UNASSESSED",
+  "quality": {},
+  "review_run_ids": []
+}
